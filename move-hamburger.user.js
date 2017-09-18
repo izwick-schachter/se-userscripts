@@ -14,14 +14,10 @@
 (function() {
     'use strict';
 
-    var hamburgerDialog = 
-document.getElementsByClassName("siteSwitcher-dialog")[0];
-    var hamburger = 
-document.getElementsByClassName("js-site-switcher-button")[0];
-    var seLogo = 
-document.getElementsByClassName("-container")[0].getElementsByClassName("-main")[0];
-    var header = 
-document.getElementsByClassName("top-bar")[0].getElementsByClassName("-container")[0];
+    var hamburgerDialog = document.getElementsByClassName("siteSwitcher-dialog")[0];
+    var hamburger = document.getElementsByClassName("js-site-switcher-button")[0];
+    var seLogo = document.getElementsByClassName("-container")[0].getElementsByClassName("-main")[0];
+    var header = document.getElementsByClassName("top-bar")[0].getElementsByClassName("-container")[0];
     seLogo.remove();
     hamburger.remove();
     hamburgerDialog.remove();
