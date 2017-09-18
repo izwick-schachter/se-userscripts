@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Move Hamburger
-// @version      0.0.1
+// @version      0.0.2
 // @description  Swaps the logo for the hamburger
 // @author       thesecretmaster
 // @match        *.stackexchange.com/*
