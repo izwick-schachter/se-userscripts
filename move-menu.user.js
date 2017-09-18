@@ -21,6 +21,6 @@
     diamond.remove();
     flags.remove();
     diamond.className = "-item";
-    nav.insertBefore(flags, nav.childNodes[0]);
     nav.insertBefore(diamond, nav.childNodes[0]);
+    nav.insertBefore(flags, nav.childNodes[0]);
 })();
