@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         Move Hamburger
-// @version      0.1
+// @version      0.0.1
 // @description  Swaps the logo for the hamburger
 // @author       thesecretmaster
 // @match        *.stackexchange.com/*
+// @exclude      *://stackexchange.com
+// @exclude      *://chat.stackexchange.com/*
+// @exclude      *://chat.stackoverflow.com/*
+// @exclude      *://chat.meta.stackexchange.com/*
 // @grant        none
 // ==/UserScript==
 

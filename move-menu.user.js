@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         Move Menu
-// @version      0.0.3
+// @version      0.0.4
 // @description  Move the important things to a gooder place
 // @author       thesecretmaster
 // @match        *.stackexchange.com/*
+// @exclude      *://stackexchange.com
+// @exclude      *://chat.stackexchange.com/*
+// @exclude      *://chat.stackoverflow.com/*
+// @exclude      *://chat.meta.stackexchange.com/*
 // @grant        none
 // ==/UserScript==
 
